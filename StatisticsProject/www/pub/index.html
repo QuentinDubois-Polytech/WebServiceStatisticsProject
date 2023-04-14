@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Statistiques</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h1>Statistiques sur les requête HTTP</h1>
+
+<h2>Header Server</h2>
+<form id="form-stats-popularity">
+    <input type="Submit" value="Lancer l'analyse de Popularité">
+</form>
+<div id="result-popularity"></div>
+
+<h2>Header Age</h2>
+<form id="form-stats-age">
+    <input type="Submit" value="Lancer l'analyse de l'Age">
+</form>
+<div id="result-age"></div>
+
+<h2>Headers : Last-Modified, AltSvc, Cookie</h2>
+<form id="form-stats-perso">
+    <input type="Submit" value="Lancer l'analyse des statistiques personnelles">
+</form>
+<div id="result-perso"></div>
+
+</body>
+<script src="data/StatisticsDataRepresentation.js"></script>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,33 @@
+:root {
+    --grey-color: #f0f0f0;
+    --dark-grey-color: #d0d0d0;
+}
+h1 {
+    justify-content: center;
+    display: flex;
+}
+
+form {
+    justify-content: center;
+    display: flex;
+}
+
+form > input[type="submit"] {
+    border-radius: 30px;
+    width: 400px;
+    height: 70px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: var(--grey-color);
+}
+
+form > input[type="submit"]:hover {
+    background-color: var(--dark-grey-color);
+}
+
+#result {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
